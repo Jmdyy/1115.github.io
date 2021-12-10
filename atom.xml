@@ -6,7 +6,7 @@
   <link href="https://yelang991115.github.io/atom.xml" rel="self"/>
   
   <link href="https://yelang991115.github.io/"/>
-  <updated>2021-12-09T06:00:19.250Z</updated>
+  <updated>2021-12-10T00:56:49.978Z</updated>
   <id>https://yelang991115.github.io/</id>
   
   <author>
@@ -15,6 +15,43 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>123</title>
+    <link href="https://yelang991115.github.io/2021/12/10/123/"/>
+    <id>https://yelang991115.github.io/2021/12/10/123/</id>
+    <published>2021-12-10T00:56:49.000Z</published>
+    <updated>2021-12-10T00:56:49.978Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>企业上云</title>
+    <link href="https://yelang991115.github.io/2021/12/10/%E4%BC%81%E4%B8%9A%E4%B8%8A%E4%BA%91/"/>
+    <id>https://yelang991115.github.io/2021/12/10/%E4%BC%81%E4%B8%9A%E4%B8%8A%E4%BA%91/</id>
+    <published>2021-12-10T00:49:18.000Z</published>
+    <updated>2021-12-10T01:31:39.435Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="企业上云"><a href="#企业上云" class="headerlink" title="企业上云:"></a>企业上云:</h3><p>​    企业上云是指企业通过互联网技术与云计算技术方式，连接社会性资源、共享平台及工作内容等，从而开展信息化管理基础设施建设、管理方法、业务流程等运用的全过程。简言之即将企业各个部分的内容都连接上网，方便其统一利用管理和调配的一种方式。换言之企业上云从技术层面可以优化企业管理和生产流程从而满<strong>足降本增效</strong>的需求，也可以满足安全容灾的需求。并且将相关的ERP系统放在云上之后可以满足更稳定的网络链接。除此之外，还有各地为了企业上云而提供的<strong>奖励</strong>。</p><p>​    基本规范流程如下：</p><img src="/2021/12/10/%E4%BC%81%E4%B8%9A%E4%B8%8A%E4%BA%91/%E6%B5%81%E7%A8%8B%E5%9B%BE.PNG" class><p>​    在上云方面分为无ERP上云和已有ERP上云。无ERP上云可以通过相关厂商进行合作搭建自由ERP。已有ERP在本地IDC中的可以通过云专线或者VPN完成数据库转移到RDS。与此同时在上云之后还可以为企业满足云备份和OBS的需求。</p><p>​    目前上云类型分为三星到五星上云，根据公司所购买的不同云服务形式给予不同的上云评级。从企业申请到材料审核到最后的评定审核。省经信委会定期将通过企业上云的企业进行公示。其中所需主要信息上云表如下：</p><img src="/2021/12/10/%E4%BC%81%E4%B8%9A%E4%B8%8A%E4%BA%91/%E4%B8%8A%E4%BA%91%E8%A1%A8.PNG" class><p>​    央企行业由于对系统稳定、数据安全有着较高要求，因此企业上云的整体架构以专属云+私有云+云管平台为主。 专属云：针对企业非核心应用、非关键应用，使用专属云来承载。 私有云：针对企业核心应用、保存核心数据建议使用私有云来承载。 在专属云和私有云的基础之上我们实现了统一的云管平台，帮助企业统一管理所有云资源。</p><p>​    企业上云不仅可以满足目前大势所趋的数字化转型经济的需求，也可以解决目前存在的能耗问题。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;企业上云&quot;&gt;&lt;a href=&quot;#企业上云&quot; class=&quot;headerlink&quot; title=&quot;企业上云:&quot;&gt;&lt;/a&gt;企业上云:&lt;/h3&gt;&lt;p&gt;​    企业上云是指企业通过互联网技术与云计算技术方式，连接社会性资源、共享平台及工作内容等，从而开展信息化管理基础设</summary>
+      
+    
+    
+    
+    <category term="工业互联网" scheme="https://yelang991115.github.io/categories/%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+    
+    <category term="工作" scheme="https://yelang991115.github.io/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>南京随感</title>
