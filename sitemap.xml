@@ -11,15 +11,6 @@
   </url>
   
   <url>
-    <loc>https://yelang991115.github.io/2021/12/10/123/</loc>
-    
-    <lastmod>2021-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yelang991115.github.io/about/index.html</loc>
     
     <lastmod>2021-12-09</lastmod>
@@ -30,15 +21,6 @@
   
   <url>
     <loc>https://yelang991115.github.io/2021/12/09/%E2%80%9C%E6%AC%A2%E8%BF%8E%E5%85%89%E4%B8%B4%EF%BC%81%E2%80%9D/</loc>
-    
-    <lastmod>2021-12-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yelang991115.github.io/2021/12/09/test/</loc>
     
     <lastmod>2021-12-09</lastmod>
     
@@ -74,6 +56,15 @@
   </url>
   
   <url>
+    <loc>https://yelang991115.github.io/books/index.html</loc>
+    
+    <lastmod>2021-05-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yelang991115.github.io/links/index.html</loc>
     
     <lastmod>2021-05-31</lastmod>
@@ -101,15 +92,6 @@
   </url>
   
   <url>
-    <loc>https://yelang991115.github.io/books/index.html</loc>
-    
-    <lastmod>2021-05-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yelang991115.github.io/tags/index.html</loc>
     
     <lastmod>2021-05-31</lastmod>
@@ -128,13 +110,6 @@
 
   
   <url>
-    <loc>https://yelang991115.github.io/tags/1/</loc>
-    <lastmod>2021-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yelang991115.github.io/tags/%E6%83%85%E6%84%9F/</loc>
     <lastmod>2021-12-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -149,13 +124,6 @@
   </url>
   
 
-  
-  <url>
-    <loc>https://yelang991115.github.io/categories/1/</loc>
-    <lastmod>2021-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://yelang991115.github.io/categories/%E9%9A%8F%E6%84%9F/</loc>
