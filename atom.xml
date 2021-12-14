@@ -6,7 +6,7 @@
   <link href="https://yelang991115.github.io/atom.xml" rel="self"/>
   
   <link href="https://yelang991115.github.io/"/>
-  <updated>2021-12-13T09:09:42.251Z</updated>
+  <updated>2021-12-14T01:26:04.369Z</updated>
   <id>https://yelang991115.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DevOps初步认识</title>
+    <link href="https://yelang991115.github.io/2021/12/14/DevOps%E5%88%9D%E6%AD%A5%E8%AE%A4%E8%AF%86/"/>
+    <id>https://yelang991115.github.io/2021/12/14/DevOps%E5%88%9D%E6%AD%A5%E8%AE%A4%E8%AF%86/</id>
+    <published>2021-12-14T01:02:35.000Z</published>
+    <updated>2021-12-14T01:26:04.369Z</updated>
+    
+    <content type="html"><![CDATA[<p>​    DeVOps：development和operation的组合词汇，目的是让开发者和运维者统一结合起来。最终目的是为了软件更加可靠和便捷。</p><p><strong>概念提出：</strong>传统的开发模式为<strong>单体架构+瀑布模式</strong>开发，也就是单纯的系统=》数据库的对应关系，也像我们当初自己大学时候自娱自乐的开发demo的玩法，由于项目小可以一个人承担多个角色，出现相关问题只需要在线上查看相关的日志即可解决。开发模式也就采用瀑布流开发模式。</p><p>​    当业务发展逐渐变得繁杂，功能模块变得越来越多，这就导致传统的单体架构+瀑布开发无法满足项目开发需求或满足需求会导致运维十分困难，并且当nginx，cdn等相关基础技术的加入让传统开发模式变得更加不适用起来。并且当多个项目同步进行 的时候不可避免的会出现不同的任务目标和不同的编程语言。这样一个大的项目会被分解为多个小的项目目标，并为了保证项目进行的顺利，在每个阶段都会有对应的测试人员对相关项目进行简单的验收。这个时候采用的方法主要是<strong>分布式架构+敏捷开发</strong>，所采用的也是Dev+Ops。这个时候的运维主要负责运维而不参与其他环节。    而这样导致的问题就是开发和运维被对立起来，运维的主要目的就是稳定，而开发人员为了功能发展就会产生很多 变动。</p><p>​    为了改变这种困境，<strong>微服务+DevOps</strong>应运而生。在大项目多语言复杂开发的环境下，将项目<strong>解耦</strong>多次部署，才能确保在部分服务出现问题后不会对其他项目造成影响。而现在运维所做的工作就是将不同的服务部署在不同的服务器，并将相关业务外包到云服务厂商，所涉及的问题逐步沉淀到平台上处理，这样就解决了运维与开发的对立：直接让开发承担运维工作。这也就是初步的DevOps的定义。而现如今DevOps已经变成一种更为广泛的概念。DevOps：人 People+流程 Process+平台 Platform。</p><p><strong>人 + 流程 = 文化</strong></p><p><strong>流程 + 平台 = 工具</strong></p><p><strong>平台 + 人 = 赋能</strong></p><p>一个完成度高的DevOps平台包含：</p><p><code>项目管理（PM）</code>：jira。运营可以上去提问题，可以看到各个问题的完整的工作流，待解决未解决等；</p><p><code>代码管理</code>：gitlab。jenkins或者K8S都可以集成gitlab，进行代码管理，上线，回滚等；</p><p><code>持续集成CI（Continuous Integration）</code>：<a href="https://www.zhihu.com/search?q=gitlab+ci&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:1755254160%7D">gitlab ci</a>。开发人员提交了新代码之后，立刻进行构建、（单元）测试。根据测试结果，我们可以确定新代码和原有代码能否正确地集成在一起。</p><p><code>持续交付CD（Continuous Delivery）</code>：<a href="https://www.zhihu.com/search?q=gitlab+cd&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:1755254160%7D">gitlab cd</a>。完成单元测试后，可以把代码部署到连接数据库的 Staging 环境中更多的测试。如果代码没有问题，可以继续手动部署到生产环境中。</p><p><code>镜像仓库</code>：VMware Harbor，私服nexus。</p><p><code>容器</code>：Docker。</p><p><code>编排</code>：K8S。</p><p><code>服务治理</code>：Consul。</p><p><code>脚本语言</code>：Python。</p><p><code>日志管理</code>：Cat+Sentry，还有种常用的是ELK。</p><p><code>系统监控</code>：Prometheus。</p><p><code>负载均衡</code>：Nginx。</p><p><code>网关</code>：Kong，zuul。</p><p><code>链路追踪</code>：Zipkin。</p><p><code>产品和UI图</code>：<a href="https://www.zhihu.com/search?q=%E8%93%9D%E6%B9%96&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:1755254160%7D">蓝湖</a>。</p><p><code>公司内部文档</code>：Confluence。</p><p><code>报警</code>：推送到工作群。</p><p>这样整体的开发流程已经可以高度协同。</p><p>——————知乎 小龙飞</p><p>​    </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;​    DeVOps：development和operation的组合词汇，目的是让开发者和运维者统一结合起来。最终目的是为了软件更加可靠和便捷。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;概念提出：&lt;/strong&gt;传统的开发模式为&lt;strong&gt;单体架构+瀑布模式&lt;/strong</summary>
+      
+    
+    
+    
+    
+    <category term="学习" scheme="https://yelang991115.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>第一日工作（正式</title>
