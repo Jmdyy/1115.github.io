@@ -6,7 +6,7 @@
   <link href="https://yelang991115.github.io/atom.xml" rel="self"/>
   
   <link href="https://yelang991115.github.io/"/>
-  <updated>2021-12-21T07:52:56.484Z</updated>
+  <updated>2021-12-27T05:05:57.745Z</updated>
   <id>https://yelang991115.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>pikachu</title>
+    <link href="https://yelang991115.github.io/2021/12/27/pikachu/"/>
+    <id>https://yelang991115.github.io/2021/12/27/pikachu/</id>
+    <published>2021-12-27T05:00:04.000Z</published>
+    <updated>2021-12-27T05:05:57.745Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>pikachu1</strong></p><p>​    表单用户名密码破解</p><p>根据验证码类型：1，长期有效：输入burp后直接进入爆破</p><p>2，前端有效，直接忽视</p><p>3，token验证：截取token进行爆破：时间很长极大计算</p><p>4，无token无验证码：爆破直接</p><p>爆破方法：根据burp中加入弱口令合集，抓取请求后包中出现账号密码进行选中后破解。将包发送到入侵器中进行变量检索字典配置进行爆破，根据返回长度不同确定是否成功。</p><p>token爆破中要再重发器中加入选中的valuetoken，由系统进行线程1的自主选择token进行爆破。</p><p>密码爆破本质是：1，弱口令可猜测可计算小。2，包中明文密码或用户名。3，无安全解决措施。</p><p>解决：复杂密码，加密数据包，加入二次验证。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;pikachu1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​    表单用户名密码破解&lt;/p&gt;
+&lt;p&gt;根据验证码类型：1，长期有效：输入burp后直接进入爆破&lt;/p&gt;
+&lt;p&gt;2，前端有效，直接忽视&lt;/p&gt;
+&lt;p&gt;3，token验证：截取token进行爆破：时间很长极</summary>
+      
+    
+    
+    
+    <category term="工作" scheme="https://yelang991115.github.io/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+    <category term="网安" scheme="https://yelang991115.github.io/tags/%E7%BD%91%E5%AE%89/"/>
+    
+  </entry>
   
   <entry>
     <title>第一次投标</title>
