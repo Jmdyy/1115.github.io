@@ -6,7 +6,7 @@
   <link href="https://yelang991115.github.io/atom.xml" rel="self"/>
   
   <link href="https://yelang991115.github.io/"/>
-  <updated>2022-06-24T14:36:48.129Z</updated>
+  <updated>2022-08-19T06:25:54.046Z</updated>
   <id>https://yelang991115.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hvv以及后续行动总结复盘1</title>
+    <link href="https://yelang991115.github.io/2022/08/19/hvv%E4%BB%A5%E5%8F%8A%E5%90%8E%E7%BB%AD%E8%A1%8C%E5%8A%A8%E6%80%BB%E7%BB%93%E5%A4%8D%E7%9B%981/"/>
+    <id>https://yelang991115.github.io/2022/08/19/hvv%E4%BB%A5%E5%8F%8A%E5%90%8E%E7%BB%AD%E8%A1%8C%E5%8A%A8%E6%80%BB%E7%BB%93%E5%A4%8D%E7%9B%981/</id>
+    <published>2022-08-19T06:12:27.000Z</published>
+    <updated>2022-08-19T06:25:54.046Z</updated>
+    
+    <content type="html"><![CDATA[<p>​    本次hvv主要在蓝方，感受就一个：只要设备上的好，蓝方只用会耍宝。不管是奇安信的天眼还是绿盟的asop，真的非常非常好用。不论是态势感知还是反侦察追踪，这俩个都有很强的能力。但是蓝方最大缺点就是很多情况下上设备也就是上shell。比如这次就有某ty存在0day。</p><p>​    但是归根结底，防守方依赖的东西大多都是已公开或者可能公开的东西。就像杀毒软件肯定比病毒落后是一样的。安全厂商其实也没有我们想的那么牛逼，很多人其实也是混子，基本上也只会点点鼠标。但是从蓝方防守还是能得到红方很多进攻经验，比如针对用户类型使用不同的1day，比如蓝方可以白嫖红队的1day。</p><p>​    后续的行动也是一次省级的攻击测试，最大感受就是如果有一天网上的战争开始了，绝对一秒钟被拿下。很多企业很多漏洞基本上都是一杀通杀，基本上都可以进内网来波大的。许多shell的洞基本上之前都被别人利用过，甚至还有别人写好的马给你使用，简称骑马。</p><p>​    本次常用进内网：shiro，jboss，jira，sql注入，文件上传，通过防火墙等路由设备进入。基本上进入内网随便扫都有若弱口令。个人遇到最多的还是弱口令和注入，少数存在中间件漏洞，例如泛微的前台sql拿管理员账号。可惜没办法传马拿shell。</p><p>​    就弱口令而言，许多人认为的非弱口令其实也很容易被破解出来，这并不是很复杂的事情，很多时候这种渗透靠的就是扫描器的功力。</p><p>​    常见弱口令进攻方法：由无验证登录进入后台，或者字典跑密码，再或者默认口令。进入后台要么越权，要么传马，成功拿shell之后维持后门，再对内网进行攻击。可惜的是本次没有进入过内网，没怎么对内网做事情。</p><h5 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h5>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;​    本次hvv主要在蓝方，感受就一个：只要设备上的好，蓝方只用会耍宝。不管是奇安信的天眼还是绿盟的asop，真的非常非常好用。不论是态势感知还是反侦察追踪，这俩个都有很强的能力。但是蓝方最大缺点就是很多情况下上设备也就是上shell。比如这次就有某ty存在0day。&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="工作" scheme="https://yelang991115.github.io/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>另一种人生的歧路</title>
