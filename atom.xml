@@ -6,7 +6,7 @@
   <link href="https://yelang991115.github.io/atom.xml" rel="self"/>
   
   <link href="https://yelang991115.github.io/"/>
-  <updated>2022-08-19T06:25:54.046Z</updated>
+  <updated>2022-10-10T01:00:07.886Z</updated>
   <id>https://yelang991115.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hw总结2</title>
+    <link href="https://yelang991115.github.io/2022/10/10/hw%E6%80%BB%E7%BB%932/"/>
+    <id>https://yelang991115.github.io/2022/10/10/hw%E6%80%BB%E7%BB%932/</id>
+    <published>2022-10-10T00:51:18.000Z</published>
+    <updated>2022-10-10T01:00:07.886Z</updated>
+    
+    <content type="html"><![CDATA[<p>因为各种复杂问题和莫名其妙的安排，拖了很久才开始写今天的总结。其实后续的总结难免涉及到很多现实隐私的问题，代指abcd了。后来参加的行动是红方，总结一下</p><p>A：一家能源企业，热电类的。暴露公网的登录界面可绕过可用cms通杀直接进后面，可惜的是只是单纯的人事管理系统，尽管可以跳转到另一个考勤和业务app，没有得到后门上传的地方，十分可惜。但是泄露的隐私也很多就是了。</p><p>方法：框架通吃</p><p>B：一家大企业，经典的dump泄露，直接用ana 分析一下找到了内网地址和数据库口令，可惜的是没办法进内网，不过后续同组大佬横向移动的时候涉及到了，小利用了一下。</p><p>方法：dump分析</p><p>C：框架存在sql执行，mssql找一下输一下，看到了默认管理的账户密码，直接登录发现需要验证，但是验证码可以爆破出来。进入系统发现是和A一个母公司，继续向下有个上传口，但是被废弃了，也没找到其他的接口，放弃</p><p>方法：框架漏洞</p><p>D：一个公交相关系统，涉及到公交线路，人员信息等泄露，这个比较有趣，一堆token跑一下字典，进去了。。</p><p>方法：token绕过</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;因为各种复杂问题和莫名其妙的安排，拖了很久才开始写今天的总结。其实后续的总结难免涉及到很多现实隐私的问题，代指abcd了。后来参加的行动是红方，总结一下&lt;/p&gt;
+&lt;p&gt;A：一家能源企业，热电类的。暴露公网的登录界面可绕过可用cms通杀直接进后面，可惜的是只是单纯的人事管理系</summary>
+      
+    
+    
+    
+    
+    <category term="工作" scheme="https://yelang991115.github.io/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>hvv以及后续行动总结复盘1</title>
